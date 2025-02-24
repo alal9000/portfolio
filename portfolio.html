@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style/desktop.css" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" href="style/mobile.css" media="screen and (max-width: 767px)">
+  <style>
+    .center-container img {
+      width: 500px;
+      height: auto; /* Maintains aspect ratio */
+      max-height: 500px;
+    }
+
+    .responsive-video {
+      width: 100%;  
+      max-width: 600px; 
+      height: auto;  
+      display: block;
+      margin: 0 auto;
+  }
+  </style>
+</head>
+<body>
+  <main>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="study-schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <header>
+      <h1>My Projects</h1>
+    </header>
+
+  <!-- Finshark -->
+  <div class="center-container">
+    <h2><a href="https://finshark-q5vczyy50-aarons-projects-0143088e.vercel.app/" target="_blank">Finshark</a></h2>
+    <p>Get the latest stock prices and real-time data on US listed Stocks on Finshark. Login, comment and save stocks to your portfolio.</p>
+    <p>Built with Typescript/React for the front-end and ASP.NET Core Web API for the backend and a SQL Server database alongside Entity Framework and Indentity. Deployed on Microsoft Azure Cloud Platform.</p>
+    <figure>
+      <a href="https://finshark-q5vczyy50-aarons-projects-0143088e.vercel.app/" target="_blank"><img src="images/homepage.PNG" alt="finshark-app"></a>
+      <figcaption><em>Get the latest stock data</em></figcaption>
+    </figure>
+    <video class="responsive-video" controls>
+      <source src="video/finshark3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+  </div>
+
+  <!-- Pokemon Review -->
+  <div class="center-container">
+    <h2><a href="https://pokemon-review-webapi-auseast-dev.azurewebsites.net/swagger/index.html" target="_blank">Pokemon Reviewer</a></h2>
+    <p>Be the next Ash Ketchum, rate and review your favourite pokemon.</p>
+    <p>Built with ASP.NET Core Web API and a SQL Server, this application has no user interface but simply API endpoints exposed. deployed on Microsoft Azure Cloud Platform</p>
+    <figure>
+      <a href="https://pokemon-review-webapi-auseast-dev.azurewebsites.net/swagger/index.html" target="_blank"><img src="images/pokemon-review.PNG" alt="pokemon-review-app"></a>
+      <figcaption><em>Review your favourite pokemon</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- Trivia Trainer -->
+  <div class="center-container">
+    <h2><a href="https://app-trivia-trainer-web-eastaus-dev-001.azurewebsites.net/" target="_blank">Triva Trainer</a></h2>
+    <p>Training for Triva night at the local? Going to be a contestant on The Chase? Hone your trivia skills with Trivia Trainer. Sign up, login and full CRUD functionality.</p>
+    <p>Built with ASP.NET Core MVC framework and Azure SQL Server database with Entity Framework and Indentity for authorization. All deployed on Microsoft Azure Cloud Platform.</p>
+    <figure>
+      <a href="https://app-trivia-trainer-web-eastaus-dev-001.azurewebsites.net/" target="_blank"><img src="images/trivia-trainer.PNG" alt="triva-trainer-app"></a>
+      <figcaption><em>Train for triva success</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- Game Hub -->
+  <div class="center-container">
+    <h2><a href="https://game-hub-part-2.vercel.app/" target="_blank">Game Hub</a></h2>
+    <p>Get information about the latest games broken down by category. See game descriptions, ratings and platform availability.</p>
+    <p>Built with TypeScript + React for UI and axios to interaction with the official RAWG api to fetch realtime game data. Deployed on Vercel.</p>
+    <figure>
+      <a href="https://game-hub-part-2.vercel.app/" target="_blank"><img src="images/game-hub.PNG" alt="game-hub"></a>
+      <figcaption><em>Get all you need to know about the lastest games.</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- Issue Tracker -->
+  <div class="center-container">
+    <h2><a href="https://issue-tracker-blue-two.vercel.app/" target="_blank">Issue Tracker</a></h2>
+    <p>Keeping track of bugs in your projects can be so frustrating, thats where Issue Tracker comes in. Keep track of open, in-progress and closed issues. Create, edit, delete and assign issues to your team.  </p>
+    <p>Built with a cutting edge tech stack with NextJS, TypeScript, Tailwind, Prisma, Radix UI and NextAuth.js all talking with a fully functional backend. Deployed on Vercel.</p>
+    <figure>
+      <a href="https://issue-tracker-blue-two.vercel.app/" target="_blank"><img src="images/issue-tracker.PNG" alt="issue-tracker"></a>
+      <figcaption><em>Keep track of bugs during the CI/CD process.</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- Ecommerce -->
+  <div class="center-container">
+    <h2><a href="https://shopper-frontend-kappa.vercel.app/" target="_blank">Shopper Ecommerce</a></h2>
+    <p>Fully Featured Ecommerce application for Shopper, an online clothing retailer. With sign up, login, add to cart, checkout, responsive design functionality.</p>
+    <p>Complete custom JS, React and CSS with NoSQL Atlas Mongo DB backend. Deployed on Vercel at Atlas Cloud.</p>
+    <figure>
+      <a href="https://shopper-frontend-kappa.vercel.app/" target="_blank"><img src="images/ecommerce.PNG" alt="ecommerce"></a>
+      <figcaption><em>Mens, womens and kids online fashion.</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- CRM -->
+  <div class="center-container">
+    <h2><a href="https://crm1-cyan.vercel.app/login/?next=/" target="_blank">Customer Relationship Manager</a></h2>
+    <p>Django customer management platform</p>
+    <p>Built with python and django and BootStrap for CSS. Deployed on Vercel</p>
+    <figure>
+      <a href="https://crm1-cyan.vercel.app/login/?next=/" target="_blank"><img src="images/crm.PNG" alt="crm"></a>
+      <figcaption><em>Business CRM app</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- Open Home -->
+  <div class="center-container">
+    <h2><a href="https://lucidlear.pythonanywhere.com/" target="_blank">Open Home</a></h2>
+    <p>List, browse and inspect properties with Open Home. Live online property listings at your fingertips. With sign up, login, add booking features and responsive design.</p>
+    <p>Built with Python and Django, custom vanilla JS and BootStrap. Deployed on pythonanywhere</p>
+    <figure>
+      <a href="https://lucidlear.pythonanywhere.com/" target="_blank"><img src="images/open-home.PNG" alt="open-home"></a>
+      <figcaption><em>Browse and inspect properties with Open Home.</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- Txt2Remind -->
+  <div class="center-container">
+    <h2><a href="https://txt-2-remind.vercel.app/" target="_blank">Txt2Remind</a></h2>
+    <p>When life gets busy its hard to remember your daily todo's. Thats where Txt2Remind comes in. From after lunch reminders to family birthdays. Just input your phone number, a text message, date and time and hit send. Your reminder is now set to message your phone at the time you set!</p>
+    <p>Built with Python, Django, vanilla JS and BootStrap. Leveraging the Twilio API to provide the SMS functionality. Deployed on vercel.</p>
+    <figure>
+      <a href="https://txt-2-remind.vercel.app/" target="_blank"><img src="images/text-to-remind.PNG" alt="Txt2Remind"></a>
+      <figcaption><em>Never miss an appointment or birthday again.</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- Friendi -->
+  <div class="center-container">
+    <h2><a href="https://friendi.com.au/" target="_blank">Friendi</a></h2>
+    <p>Making friends in a big city like Sydney can be hard. Friendi is here to help. Meet new people, attend cool events and explore our beautiful city. Create and join events, post photos, make friend requests, direct message and update your profile. </p>
+    <p>Built with Python, Django, vanilla JS and BootStrap. Deployed with Docker on AWS.</p>
+    <figure>
+      <a href="https://friendi.com.au/" target="_blank"><img src="images/friendi.PNG" alt="friendi"></a>
+      <figcaption><em>Friendi, making friends easy.</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- expense-tracker -->
+  <div class="center-container">
+    <h2><a href="https://expense-tracker-five-rho.vercel.app/" target="_blank">Expense Tracker</a></h2>
+    <p>Trouble managing your finances? With today's cost of living, saving every dollar is so important. This is where expense tracker can help</p>
+    <p>The app is built leveraging JS + React with Vite. Deployed with vercel.</p>
+    <figure>
+      <a href="https://expense-tracker-five-rho.vercel.app/" target="_blank"><img src="images/expense-tracker.PNG" alt="expense-tracker"></a>
+      <figcaption><em>Keep tabs on your spending</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- bruno's pizza -->
+  <div class="center-container">
+    <h2><a href="" target="_blank">Bruno's Pizza</a></h2>
+    <p>Bruno's is a fictious pizzeria based in Sydney. The site includes form validation with js, full responsive design, order online and contact us functionality.</p>
+    <p>The app is built with html, css and JS. Deployed with vercel.</p>
+    <figure>
+      <a href="" target="_blank"><img src="images/brunos.PNG" alt="brunos"></a>
+      <figcaption><em>Bruno's Pizzeria</em></figcaption>
+    </figure>
+  </div>
+
+  <!-- moshify -->
+  <div class="center-container">
+    <h2><a href="https://purpleshell.netlify.app/" target="_blank">Moshify</a></h2>
+    <p>Cloud hosting, VPS and domain services. Deploy your website in less than 60 seconds.</p>
+    <p>The website showcases how great html and css should be written. Deployed with netlify</p>
+    <figure>
+      <a href="https://purpleshell.netlify.app/" target="_blank"><img src="images/moshify.PNG" alt="moshify"></a>
+      <figcaption><em>Get a great deal on cloud hosting with Moshify</em></figcaption>
+    </figure>
+  </div>
+
+  
+
+  
+
+  <footer>
+    &copy; 2024 - Aaron Lal  
+    <a href="https://github.com/yourusername" target="_blank">
+        <img src="images/GitHub_Logo.png" alt="GitHub" class="github-icon">
+    </a>
+    <a href="https://linkedin.com/in/yourusername" target="_blank">
+        <img src="images/LinkedIn_icon.svg" alt="LinkedIn" class="linkedin-icon">
+    </a>
+</footer>
+</main>
+  
+</body>
+</html>
